@@ -2,15 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+</style>
+      <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Circle Generator!</h1>
-    <svg id="canvas" width="100%" viewBox="0 0 200 100">
-    </svg>
-      <div id="button-container">
-        <button onclick="createRandomScene()">Creation!</button>
-      </div>
+    <h1><u><b>~ Circle Generator! ~</b></u></h1>
+    <center><svg id="canvas" width="80%" viewBox="0 0 200 150">
+             <rect x="80" y="135" height="11" width="40" rx="2" ry="5" fill="beige" stroke-width="1px" stroke="red" onclick="createRandomScene()" cursor="pointer"/>
+        
+    <text x="85" y="144" fill="coral" font-family="Pangolin" font-size="10"onclick="createRandomScene()"    cursor="pointer" >Create!</text>
+      </svg>
+        </center>
     <script src="random.js"></script>
   </body>
 </html>
