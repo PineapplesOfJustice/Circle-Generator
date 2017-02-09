@@ -3,18 +3,19 @@
   <head>
     <meta charset="utf-8">
     <style>
-@import url('https://fonts.googleapis.com/css?family=Pangolin');
-</style>
-      <link rel="stylesheet" href="style.css">
+      @import url('https://fonts.googleapis.com/css?family=Pangolin');
+    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1><u><b>~ Circle Generator! ~</b></u></h1>
     <center><svg id="canvas" width="80%" viewBox="0 0 200 150">
-             <rect x="80" y="135" height="11" width="40" rx="2" ry="5" fill="beige" stroke-width="1px" stroke="red" onclick="createRandomScene()" cursor="pointer"/>
-        
-    <text x="85" y="144" fill="coral" font-family="Pangolin" font-size="10"onclick="createRandomScene()"    cursor="pointer" >Create!</text>
-      </svg>
-        </center>
+              <rect x="80" y="135" height="11" width="40" rx="2" ry="5" fill="beige" stroke-width="1px" stroke="red" onclick="createRandomScene()" cursor="pointer"/>
+              <rect x="62" y="141" height="0.6" width="10" ry="1" fill="red" stroke="red"/>
+              <rect x="128" y="141" height="0.6" width="10" ry="1" fill="red" stroke="red"/>
+              <text x="86" y="144" fill="coral" font-family="Pangolin" font-size="10"onclick="createRandomScene()"    cursor="pointer" >Create</text>
+            </svg>
+    </center>
     <script src="random.js"></script>
   </body>
 </html>
