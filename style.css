@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
 
 h1{
   text-align: center;
-  color:chocolate;
+  color: chocolate;
   font-family: Gochi Hand;
 }
 
 body{
- background-image: url("http://silviahartmann.com/background-tile-art/images/canvas-fine-hemp.jpg");   
+ background-image: url("Images/Background/Canvas Background.jpg");   
 }

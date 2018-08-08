@@ -64,7 +64,7 @@ function createFirstScene(){
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene(){ 
   makeRect(0,0,200,110,"white");
-  makeImage("http://www.clker.com/cliparts/h/9/3/y/O/B/doodle-sun-yellow.svg.hi.png",20,0,40,40);
+  makeImage("Images/Icon/Yellow Sun.png",20,0,40,40);
   makeRect(0,0,200,110,"#FF3800",0.1);
   makeRect(0,96,200,13,"yellow",0.8);  
     
